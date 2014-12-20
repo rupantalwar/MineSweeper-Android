@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/game_over_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over_alert"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/new_game_alert_btn"
+        android:contentDescription="@string/smiley"
+        android:layout_column="1"
+        android:scaleType="center"
+        android:padding="5dip"
+        android:gravity="center"
+        android:text="New Game"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/game_over_alert"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/game_over_alert" />
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/exit"
+        android:contentDescription="@string/smiley"
+        android:layout_column="10"
+        android:scaleType="center"
+        android:padding="5dip"
+        android:gravity="center"
+        android:text="Exit"
+        android:layout_below="@+id/game_over_alert"
+        android:layout_alignParentEnd="true"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/game_over_alert" />
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMinesweeper</string>
+    <string name="hello_world">Minesweeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="game_title">Minesweeper</string>
+    <string name="rules">Rules</string>
+    <string name="exit">Exit</string>
+    <string name="rules_content"><p>Minesweeper Rules:</p>
+        <p>(1)Tap once to set a flag</p>
+        <p>(2)Tap twice to uncover a cell</p>
+        <p>(3)Game Over, On hitting a mine</p>
+        (4)Game Won, On successful opening of all mines</string>
+    <string name="rules_title">Rules</string>
+    <string name="timer">Timer</string>
+    <string name="smiley">Smiley</string>
+    <string name="mine">Mine_Image</string>
+    <string name="game_over_alert">Game over !!</string>
+
+</resources>

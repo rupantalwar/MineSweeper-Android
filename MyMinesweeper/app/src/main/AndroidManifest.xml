@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rupantalwar.myminesweeper" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mine"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MyActivityMine"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rules"
+            android:label="@string/rules_title"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".Game"
+            android:label="@string/new_game"></activity>
+
+
+    </application>
+
+</manifest>
